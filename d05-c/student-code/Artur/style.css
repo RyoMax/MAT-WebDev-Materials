@@ -1,0 +1,88 @@
+/* Vorhandene CSS-Regeln */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.branding-title {
+  color: blue;
+}
+
+#videoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.videoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+#myVideo {
+  width: 100%;
+  height: auto;
+}
+
+.start-button {
+  padding: 40px 120px;
+  font-size: 48px;
+  color: white;
+  background-color: blue;
+}
+
+.sidebar {
+  display: none; /* Anfangs unsichtbar */
+}
+
+.nav-button {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.pauseContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #pauseButtonContainer {
+    padding-top: 20px;
+  }
+  
+  #pauseButton {
+    padding: 10px 20px;
+    font-size: 24px;
+    color: white;
+    background-color: blue;
+  }
+  
+/* Ergänzte CSS-Regeln */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+.banner-box,
+.website-box,
+.kurs-box {
+  height: 300px;
+  display: none; /* Anfangs unsichtbar */
+  padding: 20px;
+  background-color: #f2f2f2;
+  font-family: sans-serif;
+  font-size: larger;
+  flex: 1;
+}

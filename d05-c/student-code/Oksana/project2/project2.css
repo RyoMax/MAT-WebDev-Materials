@@ -1,0 +1,139 @@
+header {
+  height: 250px;
+  background: white;
+  background-size: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 7px solid rgb(245, 166, 173);
+}
+header img {
+  width: 400px;
+}
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 34px;
+  padding: 15px;
+  margin-right: 15px;
+  background-color: #2aa9ba;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 30px;
+}
+body {
+  background-image: url(./codioful-formerly-gradienta-7brhZmwXn08-unsplash.jpg);
+  background-size: 100%;
+  margin: 0;
+}
+main {
+  height: 100%;
+}
+.bildbox {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.bildbox .bild img {
+  width: 350px;
+  display: block;
+  box-shadow: 0px 0px 10px 5px #476f81;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bild {
+  display: flex;
+  border-bottom: 10px solid rgb(255, 255, 255);
+  background-color: rgba(208, 205, 207, 0.533);
+  height: 600px;
+  width: 400px;
+  margin: 15px;
+  padding: 15px;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
+  
+}
+h1 {
+  color: #015a66;
+  text-align: center;
+  background: rgb(245, 189, 194);
+  }
+.erste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bild img {
+  transition: transform 0.3s;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+}
+.bild:hover img {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.zweite {
+  width: 600px;
+  height: 600px;
+  margin: 40px;
+  background-color: rgba(208, 205, 207, 0.533);
+  padding: 10px;
+  border-top: 10px solid white;
+  font-size: 25px;
+  text-align: center;
+}
+.centerbild {
+  text-align: center;
+  height: auto;
+  margin-bottom: 250px;
+}
+footer {
+  height: 200px;
+  display: block;
+  border-top: 7px solid rgb(245, 166, 173);
+  width: 100%;
+  background-size: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.social,
+.text {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0px;
+  flex-wrap: wrap;
+}
+.social li,
+.text li {
+  list-style: none;
+}
+.social li a,
+.text li a {
+  font-size: 1em;
+  color: #015a66;
+  opacity: 0.75;
+  margin: 0 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+.social img {
+  height: 50px;
+}
+footer p {
+  color: #015a66;
+  text-align: center;
+  margin: 5px;
+  font-size: 16px;
+}

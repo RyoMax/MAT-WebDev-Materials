@@ -1,0 +1,52 @@
+
+body {
+    margin: 20px;
+}
+
+/*Header*/
+
+nav {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+  }
+
+  a{
+    color: white;
+  }
+
+  /*Main*/
+
+
+.vogue{
+  padding: 50px ;
+  margin-left: 5%;
+}
+  h1{
+    text-align: center;
+  }
+
+.two {
+  width: 350px;
+}
+
+summary{
+  font-size: 30px
+}
+
+/*Footer*/
+
+#contact{
+  text-align: start;
+  font-size: 20px;
+  align-items: flex-end;
+
+}
+
+.a{
+  color: black;
+  text-decoration: underline;
+}

@@ -1,0 +1,51 @@
+header img {
+  width: 50px;
+}
+h1 {
+  border-style: inset;
+  color: green;
+  font-family: "Courier New", Courier, monospace;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(66, 39, 91);
+}
+nav a {
+  border-bottom: 1px solid green;
+  background-color: black;
+  color: red;
+  padding: 5px;
+  margin: 3px;
+  text-decoration: none;
+
+  align-items: center;
+  width: 40px;
+}
+.erscheinung img {
+  height: 500px;
+  width: 100%;
+  margin: 5px auto;
+}
+p { 
+  color:blue;
+  text-decoration: underline;
+  width: min-content;
+  background-color: rgb(14, 14, 15);
+  font-size:x-large;
+}
+p.weiter {
+  border: none;
+  color: aliceblue;
+  text-decoration: none;
+  width: fit-content;
+  background-color: rgb(66, 39, 91);
+  font-size:large;
+}
+div {
+  background-color: rgb(66, 39, 91);
+}
+li {
+  color: aliceblue; font-size:large;
+}

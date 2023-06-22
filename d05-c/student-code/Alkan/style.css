@@ -1,0 +1,174 @@
+/* BODY CSS*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0 10vw;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+/* HEADER CSS */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(255, 1, 1, 0.1);
+}
+
+header img {
+  max-width: 150px;
+  width: auto;
+  height: auto;
+  animation-name: slide1;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+header nav a {
+  border: 2px solid gray;
+  background-color: white;
+  color: gray;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+/* HAUPTTEIL CSS */
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-shadow: 3px 3px 3px rgb(125, 125, 125);
+  font-size: 5vm;
+  width: 50%;
+  /* color: red; */
+  /* border: 2px solid gray; */
+  margin: auto 5%;
+  text-align: center;
+}
+main {
+  background-color: white;
+}
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes slide1 {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.erste-img img {
+  width: 300px;
+}
+
+.zweite-img img {
+  width: 300px;
+}
+
+/* ZUM ÖFFNEN DIE SEITE IN HAUPTSEITE */
+#videos,
+#uber-uns,
+#kontakt {
+  display: none;
+}
+#videos:target,
+#uber-uns:target,
+#kontakt:target {
+  display: block;
+}
+
+/* VIDEOS SEITE */
+h2 {
+  border-top: 1px solid gray;
+  font-family: "Dancing Script", cursive;
+  text-shadow: 3px 3px 3px rgb(125, 125, 125);
+  font-size: 3rem;
+  width: auto;
+  /* color: red; */
+  /* border: 2px solid gray; */
+  margin: auto 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.videos-flex {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.videos-flex div a {
+  border: 1px solid gray;
+  color: gray;
+  padding: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+/* UBER UNS SEITE CSS */
+.hh-logo-2 {
+  animation-name: slide1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+.uber-uns-flex {
+  display: flex;
+  justify-content: left;
+}
+
+.uber-uns-text {
+  font-family: "Dancing Script", cursive;
+  margin: 20px 100px 20px 0;
+}
+
+/* KONTAKT SEITE */
+.kontakt {
+  font-family: "Dancing Script", cursive;
+  margin: 20px 100px;
+  /* width: auto; */
+}
+
+.social-media-konto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100px;
+}
+
+.video-seite {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.video-beschreibung, h4 {
+  padding: 0 5%;
+}
+
+/* FUßTEIL CSS */
+footer {
+  box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(255, 1, 1, 0.1);
+}
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+footer nav a {
+  color: rgb(96, 93, 93);
+  text-decoration: none;
+  font-weight: bold;
+}

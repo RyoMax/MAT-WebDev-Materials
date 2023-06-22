@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background-image: url("https://assets.vogue.com/photos/6475c6b08ce475c1df7df448/master/w_1920,c_limit/00012-victoria-beckham-resort-2024-details-credit-brand.jpg");
+  background-repeat: repeat;
+  color: white;
+  background-size: cover;
+}
+
+/*HEAD*/
+a {
+    font-size: 30px;
+    color: black;
+}
+#color {
+  text-align: center;
+  padding: 50px;
+}
+
+/*#1 */
+img {
+  width: 200px;
+}
+
+.trend_color {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text,
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8 {
+  /* border: 1px;*/
+  width: 250px;
+  height: 300px;
+  margin: 100px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+/*#2 */
+
+#trend {
+  text-align: center;
+  padding: 50px;
+}
+
+.maxi,.fabrics,.corset,.bra,.mini {
+    text-align: center;
+    padding: 50px;
+    }
+.img{
+    width: 500px;
+}

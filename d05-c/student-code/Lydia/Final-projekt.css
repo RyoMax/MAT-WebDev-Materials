@@ -1,0 +1,157 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(170, 165, 96);
+  margin: 0;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+#header-image {
+  margin-top: 110px;
+  width: 100%;
+}
+
+.body-image {
+  width: 650px;
+  /* height: 500px; */
+  text-align: left;
+  margin: 0 16px;
+}
+
+#banner-text {
+  font-family: "Dancing Script", cursive;
+  font-size: 7vw;
+  color: rgb(102, 29, 86);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* navbar */
+
+nav {
+  top: 0;
+  background-color: #90c081cc;
+  border: 2px solid #c5bc6fcc;
+  padding: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  z-index: 1;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  max-width: 80%;
+}
+
+nav a {
+  color: rgb(163, 141, 83);
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  background-color: #8cbfa3cc;
+  padding: 12px;
+  margin: 0 5px;
+  white-space: nowrap;
+}
+
+nav a:hover {
+  background-color: #cc72ab;
+  color: #e0cd6dcc;
+  border: 1px solid #f5ad89cc;
+}
+
+/* Navigation end */
+
+p {
+  width: 80%;
+  text-align: left;
+  font-size: 2rem;
+  color: darkolivegreen;
+  padding: 35px;
+  margin: 20px auto;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(146, 121, 64);
+  background-color: #a3dc8e;
+  font-size: 60px;
+  border: 7px dotted rgb(157, 148, 61);
+}
+
+h3 {
+  text-align: center;
+  color: rgb(121, 66, 104);
+  font-size: 40px;
+  border: 5px double black;
+  width: 30%;
+  margin: auto;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(146, 64, 91);
+  background-color: #91b965;
+  font-size: 60px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: inherit;
+}
+
+/*column card:*/
+.parent-card {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.parent-card .child-card {
+  border: 3px dotted rgb(70, 106, 90);
+  background-color: rgb(167, 167, 128);
+  margin: 20px;
+  padding: 10px;
+  width: 450px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.parent-card .child-card img {
+  width: 400px;
+  height: 220px;
+}
+
+.child-card h3 {
+  font-size: 20px;
+  border: 4px double black;
+  width: 60%;
+  margin: auto;
+}
+
+.child-card p {
+  width: 90%;
+  text-align: left;
+  font-size: 1.1rem;
+  color: darkolivegreen;
+}
+
+.footer{
+  border: 2px solid #166f66cc;
+  background-color: #4fc3d0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

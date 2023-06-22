@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  background-color: white;
+}
+h1 {
+  background-color: blueviolet;
+  padding: 25px;
+  border: 3px;
+  border-style: dotted;
+  border-color: red;
+}
+/*erste section: */
+.erste-section {
+    background-color: yellowgreen;
+    border: 5px dotted green;
+    margin: 20px 50px; 
+    padding: 30px 50px 60px;
+  }
+  
+  .top-section p {
+    border: 2px dotted green;
+    width: 50%;
+    /*zentrieren, so: */
+    /*margin-left: auto;*/
+    /*margin-right: auto; */
+    /*zentrieren, oder so: */
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  /*zweite section*/
+.zweite-section {
+  background-color: blueviolet;
+  border: 3px solid orange;
+  margin: 30px 40px;
+  padding: 20px 40pX;
+}
+
+.zweite-section p {
+  border: 2px solid orange;
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+/*dritte section*/
+.dritte-section {
+  background-color: aqua;
+  border: 5px dashed blue;
+  margin: 20px 30px;
+  padding: 50px;
+}
+
+.dritte-section p {
+  border: 4px dashed blue;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+}

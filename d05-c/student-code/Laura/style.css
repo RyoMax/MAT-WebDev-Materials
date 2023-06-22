@@ -1,0 +1,105 @@
+/*HEADER*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background-image: url(./img/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.logo{
+    width: 220px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+h1{
+    font-style: oblique;
+    color: white;
+}
+.menu-link{
+    color:burlywood ;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size:larger;
+}
+
+/*MAIN*/
+
+.container{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rosybrown;
+
+}
+
+h2{
+    text-align: center;
+    color: antiquewhite;
+}
+
+.welcome-img{
+    width: 500px;
+    float: left;
+    padding: 20px;
+    margin: auto;
+    border:5px dotted rgb(129, 30, 89);
+}
+
+.container section{
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome{
+    width: 23%;
+    margin: 20px;
+    padding: 100;
+    float:right;
+    border:5px dashed rgb(75, 6, 47);
+}
+
+/*ÜBER UNS*/
+
+.about{
+    padding: 50px;
+    max-width: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    border:5px dotted rgb(227, 117, 22);
+    padding: 10px;
+    margin: 20px;
+}
+
+ /*ANGEBOT*/   
+.offer{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    border:5px dotted rgb(109, 32, 139);
+    padding: 10px;
+    margin: 20px;
+    width: auto;
+  
+}
+ 
+/*FOOTER*/
+
+.kontakt{
+    font-size: 23px;
+    text-align: center;
+    width: 99%;
+    background-color: rosybrown;
+    border:5px dotted rgb(187, 79, 88);
+
+}

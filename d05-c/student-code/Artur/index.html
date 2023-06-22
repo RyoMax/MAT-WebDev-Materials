@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>DCI Brandinganalyse</title>
+  <style>
+    .branding-title {
+      color: blue;
+    }
+    .start-button {
+      padding: 40px 120px;
+      font-size: 48px;
+      color: white;
+      background-color: blue;
+    }
+    .pauseContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transform: scale(1.5);
+    }
+
+    #pauseButtonContainer {
+      padding-top: 20px;
+    }
+
+    #pauseButton {
+      padding: 10px 20px;
+      font-size: 24px;
+      color: white;
+      background-color: blue;
+    }
+
+    .sidebar {
+      display: none; /* Anfangs unsichtbar */
+      position: fixed;
+      top: 150px; /* Ändere die Position nach unten um 150px */
+      right: 0;
+      height: 100vh;
+      width: 100px; /* Passe die Breite der Sidebar nach Bedarf an */
+      background-color: #f2f2f2;
+    }
+
+    .nav-button {
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: white;
+      background-color: blue;
+      width: 100%;
+    }
+    .banner-box,
+    .website-box,
+    .kurs-box {
+      display: none; /* Anfangs unsichtbar */
+      padding: 20px;
+      background-color: lightblue; /* Hintergrundfarbe auf lightblue ändern */
+      margin: 20px; /* Abstand zwischen den Flexboxen */
+    }
+
+    /* Ergänzte CSS-Regeln */
+
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 30px;
+      flex: 1;
+    }
+
+    .flex-container-wrapper {
+      max-width: 768px; /* Maximale Breite von 768px */
+      margin-block-start: 100px; /* Zentriert den Container */
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1 class="branding-title">DCI Brandinganalyse</h1>
+  </div>
+
+  <button id="startButton" class="start-button">Jetzt starten</button>
+
+  <div id="videoContainer" style="display: none">
+    <div class="videoWrapper">
+      <video id="myVideo" controls>
+        <source src="DCI BrandingAnalyse.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+
+  <div class="pauseContainer" style="display: none">
+    <div id="pauseButtonContainer">
+      <button id="pauseButton">Pause</button>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <button class="nav-button">Option 1</button>
+    <button class="nav-button">Option 2</button>
+    <button class="nav-button">Option 3</button>
+  </div>
+
+  <div class="flex-container-wrapper">
+    <!-- Neuer Container für die Flexboxen -->
+    <div class="flex-container">
+      <div class="banner-box">
+        <h2>Banneranalyse</h2>
+        <p>
+          Auswertung der DCI Banner 
+          
+          Pro & Kontra -analyse: 
+          Pro:
+          Die Banner: 
+          - werden bei der Eingabe von bestimmten Suchbegriffen
+          angezeigt. 
+          - sind gesponsert und werden on top der Ergebnisliste
+          angezeigt 
+          - sind leicht verständlich 
+          - einladend und motivierend 
+          - werden auch bei langen und komplizierten Suchbegriffen angezeigt -
+          decken eine gut ausgewählte und breite Palette an Suchbegriffen ab
+          
+          Kontra: 
+          Die Banner: 
+          - beinhalten manche Textinhalte mehrfach
+          hintereinander, was weder Effektiv noch kosteneffizient ist 
+          - sollten die tatsächlichen Voraussetzung nicht verschleiern, auch
+          Schweigen ist Gold 😊 
+          
+          Fazit: Rund um positiv. Die bezahlten Banner
+          sind sehr effektiv, könnten aber auch viel Preiswerter sein, wenn
+          man beispielsweise einen SEO-Optimierten Blog führt und sich
+          schrittweise auch bei kostenlosen Ergebnisanzeigen eine Top
+          Platzierung erarbeitet.
+        </p>
+      </div>
+
+      <div class="website-box">
+        <h2>Websiteanalyse</h2>
+        <p>
+          Auswertung der DCI Website 
+          
+          Pro & Kontra -analyse:
+          Pro: 
+          Die Website: 
+          - ist modern, übersichtlich und professionell 
+          - ist sehr informativ und einladend 
+          - verzichtet auf unnötigen Schnick-Schnack 
+          - hat gut platzierte Call-to-Action-Buttons 
+          
+          Kontra:
+          Die Website: 
+          - sollte von Anfang an in Deutsch statt Englisch
+          angezeigt werden. 
+          - wird gelegentlich visuell falsch dargestellt 
+          - hat veraltete Studenten-Testimonials 
+          - hat keine Partner-Firmen-Testimonials 
+          
+          Fazit: Die ganze Website ist wirklich beeindruckend und auf den Punkt gebracht. Was ich dort noch
+          empfehlen würde wäre ein zusätzlicher, aktueller Content-Blog zu den
+          angebotenen IT-Berufen.
+        </p>
+      </div>
+
+      <div class="kurs-box">
+        <h2>Kursanalyse</h2>
+        <p>
+          Auswertung vom DCI Orientierungskurs 
+          
+          Pro & Kontra -analyse: 
+          Pro: 
+          Der Orientierungskurs: 
+          - hat ein sehr angenehmes Unterrichtsklima mit perfekt gewählten Zeiten von 9 bis 16:15 Uhr 
+          - verfügt über hochqualifizierte und engagierte Dozenten 
+          - hat eine gute Auswahl an interessanten Lerninhalten 
+          - hat eine entspannte Atmosphäre 
+          
+          Kontra: Der Orientierungskurs: 
+          - sollte auch am Wochenende angeboten werden. 
+          - könnte noch mehr Praxisbeispiele aus dem Berufsalltag enthalten 
+          - hat keine zusätzlichen Arbeitsmaterialien (Skripte, Bücher) 
+          
+          Fazit:
+          Der Orientierungskurs ist insgesamt sehr gut. Es wäre jedoch
+          wünschenswert, dass auch am Wochenende Kurse angeboten werden und
+          mehr Praxisbeispiele eingebaut werden.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

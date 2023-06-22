@@ -1,0 +1,87 @@
+body {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  margin: 0;
+}
+header {
+  border-bottom: 3px medium;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: burlywood;
+  padding: px;
+}
+.erster-header {
+  color: white;
+}
+header img {
+  width: 40px;
+  justify-content: left;
+}
+
+h1 {
+  margin: 10px;
+  color: black;
+  border: px solid;
+  justify-content: center;
+  font-family: serif;
+}
+.erster-Schritt {
+  display: flex;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: green;
+  text-decoration: underline;
+}
+.global {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sanaa {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  color: green;
+  text-decoration: underline;
+}
+.aden {
+  display: flex;
+  justify-content: center;
+}
+.ibb {
+  display: flex;
+  justify-content: space-around;
+}
+.schibam {
+  display: flex;
+  justify-content: space-around;
+}
+h4 {
+  font-family: "Courier New", Courier, monospace;
+  color: green;
+  text-decoration: underline;
+}
+.Ende {
+  color: black;
+  border: 2px solid red;
+  background-color: burlywood;
+  font-family: serif;
+}
+.a1 {
+  display: flex;
+  justify-content: space-between;
+}
+.a1 div {
+  width: 300px;
+}
+.a1 img {
+  width: 100%;
+}
+.Ende li {
+  text-decoration: underline;
+}

@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#banner {
+    background: linear-gradient(rgba(37, 31, 31, 0.646),rgba(25, 29, 25, 0.415)),
+    url(hinterground.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo {
+    opacity: 0.4;
+    width: 70px;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    border-radius: 20px;
+}
+.banner-text {
+    text-align: center;
+    color: white;
+    padding-top: 135px;
+}
+.banner-text h1 {
+    font-family: 'Kaushan Script';
+    font-size: 130px;
+}
+.banner-text p {
+    font-family: 'Satisfy';
+    font-size: 40px;
+    font-style: italic;
+}
+#side-nav {
+    text-align: center;
+    width: 120px;
+    height: 1000px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: rgba(18, 17, 19, 0.47);
+}
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* features */
+#feature {
+    width: 100%;
+    padding: 70px 0;
+}
+.feature-title {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.feature-title p {
+    margin: auto;
+    font-size: 40px;
+    color: rgba(121, 113, 113, 0.7);
+    font-weight: bold;
+}
+.feature-title h1 {
+    font-size: 50px;
+}
+.feature-box {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    text-align: left;
+}
+.feature-div {
+    flex-basis: 50%;
+}
+.feature-div p {
+    font-family: sans-serif;
+    font-size: 110%;
+}
+.feature-img {
+    margin: auto;
+    flex-basis: 50%;
+}
+.feature-img img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+/* services */
+#service {
+    width: 100%;
+    padding: 70px 0;
+    background: rgba(150, 146, 146, 0.579);
+}
+.service-title, .service-title p {
+    text-align: center;
+    padding-bottom: 70px;
+    margin: auto;
+    font-size: 40px;
+    color: rgb(121, 113, 113);
+    font-weight: bold;
+}
+.service-title h1 {
+    font-size: 50px;
+}
+.service-box {
+    height: auto;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+/* clients */
+#client {
+    padding: 70px ;
+}
+.client-title {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.client-title p {
+    margin: auto;
+    font-size: 40px;
+    color: rgba(121, 113, 113, 0.7);
+    font-weight: bold;
+}
+.client-title h1 {
+    font-size: 50px;
+}
+.client-box h2 {
+    margin-right: 100px;
+}
+.client-box li {
+    font-family: sans-serif;
+    font-size: 120%;
+}
+.client-img {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+
+/* contact */
+#contact {
+    padding: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.704)), url(contact.webp);
+    height: 12vh;
+    color: white;
+}
+.contact-box {
+    width: 80% ;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.contact-title p {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.contact-info-left, .contact-info-right {
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 40px;
+    font-size: 125%;
+}
+.contact-info-left a {
+    text-decoration: none;
+    color: white;
+}
+
+/* allgemein */
+.feature-title, .service-title, .client-title {
+    color: blue;
+    }

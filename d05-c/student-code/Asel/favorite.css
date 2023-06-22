@@ -1,0 +1,69 @@
+body {
+  margin: 10px;
+  background-image: url('https://i.pinimg.com/564x/99/cd/1b/99cd1b03187178cd29353429f9e721b6.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.t,.sk {
+  width: 250px;
+}
+
+.sh,.f{
+  width: 500px;
+}
+.main{
+    margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.top {
+  border: 1px;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.skirt{
+  border: 1px ;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.shoes{
+  border: 1px;
+  width: 500px;
+  height: 250px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.film {
+  width: 250px;
+  height: 300px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
